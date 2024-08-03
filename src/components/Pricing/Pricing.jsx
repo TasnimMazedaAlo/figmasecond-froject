@@ -1,6 +1,6 @@
 import React from 'react'
-import img1 from './img/img.svg'
-import img2 from './img/img2.svg'
+import img1 from './img/img.webp'
+import img2 from './img/img2.webp'
 import { FaCheck } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa";
 import { Link } from 'react-router-dom';

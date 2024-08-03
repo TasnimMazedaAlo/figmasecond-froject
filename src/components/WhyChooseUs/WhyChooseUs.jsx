@@ -1,9 +1,9 @@
 import React from 'react'
 import user from './img/user.svg'
-import frame5 from './img/frame5.svg'
-import all1 from './img/all1.svg'
-import all2 from './img/all2.svg'
-import all3 from './img/all3.svg'
+import frame5 from './img/frame5.webp'
+import all1 from './img/all1.webp'
+import all2 from './img/all2.webp'
+import all3 from './img/all3.webp'
 const WhyChooseUs = () => {
   return (
     <div>

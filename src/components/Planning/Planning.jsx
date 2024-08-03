@@ -2,7 +2,7 @@ import React from 'react'
 import vector from './img/Vector.svg'
 import { FaArrowRight } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
-import frame from './img/frame.svg'
+import frame from './img/frame.webp'
 import frame2 from './img/frame2.svg'
 import frame3 from './img/frame3.svg'
 

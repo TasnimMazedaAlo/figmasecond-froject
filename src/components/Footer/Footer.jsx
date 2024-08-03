@@ -1,5 +1,5 @@
 import React from 'react'
-import footer1 from './img/footer.svg'
+import footer1 from './img/footer.webp'
 import footer2 from './img/footer2.svg'
 import { FaArrowRight } from "react-icons/fa";
 import { FaArrowUp } from "react-icons/fa";

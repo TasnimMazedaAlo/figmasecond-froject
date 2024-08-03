@@ -1,6 +1,6 @@
 import React from 'react'
 import vector from './img/vector.svg'
-import all5 from './img/all5.svg'
+import all5 from './img/all5.webp'
 import { FaArrowRight } from "react-icons/fa";
 import all6 from './img/all6.svg'
 import { Link } from 'react-router-dom';
