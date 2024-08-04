@@ -26,6 +26,7 @@ import AgainStep4 from './components/AgainStep4/AgainStep4.jsx'
 import Step5 from './components/Step5/Step5.jsx'
 import Conformation1 from './components/Conformation1/Conformation1.jsx'
 import Conformation2 from './components/Conformation2/Conformation2.jsx'
+import Search from './components/Search/Search.jsx'
 
 
 
@@ -99,6 +100,10 @@ const router = createBrowserRouter([
   {
     path: "/Conformation2",
     element: <Conformation2></Conformation2>
+  },
+  {
+    path: "/Search",
+    element: <Search></Search>
   }
  
 ]);

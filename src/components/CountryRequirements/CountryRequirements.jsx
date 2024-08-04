@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { TbWorld } from "react-icons/tb";
 import country from './img/country.svg'
 import country2 from './img/country2.svg'
@@ -6,10 +6,60 @@ import { IoIosArrowDown } from "react-icons/io";
 import apply from './img/apply.svg'
 import apply2 from './img/apply2.svg'
 import { Link } from 'react-router-dom';
+import { FaTimes } from "react-icons/fa";
+import { FaSearch } from "react-icons/fa";
 
 const CountryRequirements = () => {
+
+  const [click, setClick] = useState(false);
+  const [filteredCountries, setFilteredCountries] = useState([]);
+  const [query, setQuery] = useState('');
+
+  const countrys = [
+      { name: 'Mexico' },
+      { name: 'Spain' },
+      { name: 'Franch' },
+      { name: 'Australia' },
+      { name: 'United Kingdom' },
+      
+  ]
+
+  useEffect(() => {
+      setFilteredCountries( countrys.filter((country) => {
+          return country.name.toLowerCase().includes(query.toLowerCase())
+      }))
+  },[query])
+
   return (
     <div>
+
+      {
+        click ? <>
+        <div className='relative'>
+        <div className='md:w-[300px] w-[200px] bg-white md:py-7 md:px-5 py-5 px-3 lg:px-5 rounded-2xl md:mt-[300px] mt-[350px] lg:ml-[200px] md:ml-[250px]  absolute'>
+          <h2 className='text-start md:text-xl font-semibold'>Where are you traveling to?</h2>
+          <div className='flex items-center gap-2  px-2 rounded-xl border-2 bg-white my-5'>
+          <div><FaSearch /></div>
+          <input  onChange={(e) => setQuery(e.target.value)} type="text" placeholder='Search Country' className='w-full py-3 ' /></div>
+
+          <ul className='text-start'>
+          {
+            filteredCountries.map((country, index) => (
+              <li key={index}>{country.name}</li>
+            ))
+          }
+
+          </ul>
+          </div>
+        </div>
+
+       
+        
+        
+        </> : <></>
+      }
+
+        
     
       <section>
         <div className='lg:block hidden'>
@@ -24,7 +74,7 @@ const CountryRequirements = () => {
                       <h2 className='font-bold pb-3'>Where are you traveling to?</h2>
                       <div className='flex justify-between items-center border-2 rounded-xl'>
                         <div className='flex items-center'><img className='w-14 h-14' src={country} alt="" /> <span className='font-semibold'>Spain</span></div>
-                        <div className='pr-5'><IoIosArrowDown /></div>
+                        <div className='pr-5' onClick={() => {setClick(!click)}}>{click? <FaTimes /> : <IoIosArrowDown /> }</div>
                       </div>
                       <div><img className='my-3' src={apply} alt="" /></div>
                      <Link to={"/Step1"}><img src={apply2} alt="" /></Link>
@@ -62,7 +112,7 @@ const CountryRequirements = () => {
                       <h2 className='font-bold pb-3'>Where are you traveling to?</h2>
                       <div className='flex justify-between items-center border-2 rounded-xl'>
                         <div className='flex items-center'><img className='w-14 h-14' src={country} alt="" /> <span className='font-semibold'>Spain</span></div>
-                        <div className='pr-5'><IoIosArrowDown /></div>
+                        <div className='pr-5' onClick={() => {setClick(!click)}}>{click? <FaTimes /> : <IoIosArrowDown /> }</div>
                       </div>
                       <div><img className='my-3' src={apply} alt="" /></div>
                    <Link to={"/Step1"}><img src={apply2} alt="" /></Link>
