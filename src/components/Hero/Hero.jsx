@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import hero from './img/hero.webp'
 import document from './img/document.svg'
 import { FaArrowRight } from "react-icons/fa6";
-import hero2 from './img/hero2.svg'
+import hero2 from './img/hero2.webp'
 
 const Hero = () => {
   return (
