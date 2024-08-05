@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
-    <div>
+    <div className="container mx-auto">
        <section>
         <div className='hidden lg:block'>
         <div className='mx-24 my-24'>

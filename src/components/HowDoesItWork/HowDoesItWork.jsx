@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 const HowDoesItWork = () => {
   return (
-    <div>
+    <div className="container mx-auto">
         <section>
             <div className='hidden md:block'>
                 <div className='mx-10  my-7 bg-[#E2F0FF] rounded-xl'>

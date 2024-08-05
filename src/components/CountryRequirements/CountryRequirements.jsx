@@ -31,7 +31,7 @@ const CountryRequirements = () => {
   },[query])
 
   return (
-    <div>
+    <div className="container mx-auto">
 
       {
         click ? <>

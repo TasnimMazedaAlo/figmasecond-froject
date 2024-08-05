@@ -6,7 +6,7 @@ import { IoIosArrowDown } from "react-icons/io";
 
 const Faqs = () => {
   return (
-    <div>
+    <div className="container mx-auto">
       <section>
         <div>
           <div>

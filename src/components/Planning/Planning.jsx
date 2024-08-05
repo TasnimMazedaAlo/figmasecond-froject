@@ -9,7 +9,7 @@ import frame3 from './img/frame3.webp'
 
 const Planning = () => {
   return (
-    <div>
+    <div className="container mx-auto">
         <section>
             <div className='md:block hidden'>
                 <div className='mx-10'>

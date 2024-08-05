@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const FitYourFace = () => {
   return (
-    <div>
+    <div className="container mx-auto">
         <section>
             <div className='w-full h-[800px] bg-[#484848]'>
                <div className='py-7'>

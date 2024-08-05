@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 
 const Customers = () => {
   return (
-    <div>
+    <div className="container mx-auto">
         <section>
             <div className='hidden md:block'>
                 <div className='mx-10 bg-[#0052A5]'>

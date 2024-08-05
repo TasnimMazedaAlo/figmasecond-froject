@@ -8,7 +8,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 const Step3 = () => {
   return (
-    <div>
+    <div className="container mx-auto">
         <section>
             <div>
                 <div className="lg:mx-24 md:mx-10 mx-3 my-7">

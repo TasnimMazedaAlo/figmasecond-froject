@@ -6,7 +6,7 @@ import document from './img/document.svg'
 
 const WhatIsAnIdp = () => {
   return (
-    <div>
+    <div className="container mx-auto">
      
       <section>
         <div className='lg:block hidden'>

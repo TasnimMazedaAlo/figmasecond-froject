@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 const Pricing = () => {
   return (
-    <div>
+    <div className="container mx-auto">
       <section>
         <div>
           <div className='mx-10 md:mt-24'>

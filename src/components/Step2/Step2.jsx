@@ -11,7 +11,7 @@ const Step2 = () => {
     }
     
   return (
-    <div>
+    <div className="container mx-auto">
 
 <section>
         <div>

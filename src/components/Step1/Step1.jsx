@@ -10,7 +10,7 @@ const Step1 = () => {
     e.preventDefault();
   }
   return (
-    <div>
+    <div className="container mx-auto">
          <section>
         <div>
             <div className="lg:mx-24 md:mx-7 md:my-7 my-5 mx-3">

@@ -14,7 +14,7 @@ const Navbar = () => {
   let [clickMenu, setClickMenu] = useState(false);
 
   return (
-    <div>
+    <div className="container mx-auto">
        <section>
         <div>
            

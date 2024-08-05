@@ -7,7 +7,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 const Conformation1 = () => {
   return (
-    <div>
+    <div className="container mx-auto">
         <section>
             <div className="lg:mx-24 md:mx-10 mx-3 my-7">
                 <div>

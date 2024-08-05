@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const TakeAPhoto = () => {
   return (
-    <div>
+    <div className="container mx-auto">
         <section>
         <div className='w-full h-[800px] bg-[#484848]'>
        <Link to={"/AgainStep3"}> <div className='flex justify-end mx-10 pt-10'><FaTimes className='text-white' /></div></Link>

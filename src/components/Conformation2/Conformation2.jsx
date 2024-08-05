@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 const Conformation2 = () => {
   return (
-    <div>
+    <div className="container mx-auto">
         <section>
             <div className="lg:mx-24 md:mx-10 mx-3 my-7">
             <button className='bg-[#84D252] px-5 py-5 rounded-full '><FaCheck className='text-white' /></button>

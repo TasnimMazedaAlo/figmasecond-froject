@@ -13,7 +13,7 @@ import list from './img/list.svg'
 
 const AgainStep4 = () => {
   return (
-    <div>
+    <div className="container mx-auto">
         <section>
             <div  className="lg:mx-24 md:mx-10 mx-3 my-7">
             <div className='hidden md:block'><img src={logo} alt=""/></div>

@@ -6,7 +6,7 @@ import all2 from './img/all2.webp'
 import all3 from './img/all3.webp'
 const WhyChooseUs = () => {
   return (
-    <div>
+    <div className="container mx-auto">
         <section>
             <div className='lg:block hidden'>
                 <div className='mt-[1000px] mx-10 '>
