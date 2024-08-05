@@ -8,7 +8,7 @@ import hero2 from './img/hero2.webp'
 
 const Hero = () => {
   return (
-    <div>
+    <div className="container mx-auto">
        <section>
         <div>
             <div className='md:block hidden'>
