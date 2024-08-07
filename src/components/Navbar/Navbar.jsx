@@ -49,8 +49,8 @@ const Navbar = () => {
 
               {
                clickMenu ? <>
-               <div className='relative  text-gray-700 font-semibold rounded-md'>
-                <div className='absolute top-24 left-[-180px] bg-white '>
+               <div className='relative  text-gray-700 font-semibold '>
+                <div className='absolute top-24 left-[-180px] bg-white rounded-md px-3'>
                  
                  <div>
                   <Link to={"/WhatIsAnIdp"}> <div className='w-60 pt-5'> What is an IDP? </div> </Link>

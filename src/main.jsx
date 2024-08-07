@@ -27,6 +27,7 @@ import Step5 from './components/Step5/Step5.jsx'
 import Conformation1 from './components/Conformation1/Conformation1.jsx'
 import Conformation2 from './components/Conformation2/Conformation2.jsx'
 import Search from './components/Search/Search.jsx'
+import Navbar from './components/Navbar/Navbar.jsx';
 
 
 
@@ -110,6 +111,8 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+   
    <RouterProvider router = {router}></RouterProvider> 
+   
   </React.StrictMode>,
 )

@@ -4,10 +4,12 @@ import { Link } from 'react-router-dom';
 import document from './img/document.svg'
 
 
+
 const WhatIsAnIdp = () => {
   return (
     <div className="container mx-auto">
-     
+
+    
       <section>
         <div className='lg:block hidden'>
           <div className='mx-10 md:mt-7 w-[700px] text-start bg-[#E2F0FF] rounded-md'>
