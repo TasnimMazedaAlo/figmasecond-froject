@@ -7,8 +7,8 @@ import { FaArrowLeft } from "react-icons/fa6";
 import { FaArrowRight } from "react-icons/fa";
 import { IoReload } from "react-icons/io5";
 import { MdDelete } from "react-icons/md";
-import man7 from './img/man7.svg'
-import list from './img/list.svg'
+import man7 from './img/man7.webp'
+import list from './img/list.webp'
 
 
 const AgainStep4 = () => {
@@ -28,7 +28,7 @@ const AgainStep4 = () => {
                 <div className='md:hidden block'>
                   <div className='bg-white rounded-2xl  my-5'>
                     <div className='flex items-center gap-1 pt-3 px-3'>
-                      <button className='bg-[#3FAFEE] px-2 py-1 rounded-full text-white font-semibold text-xs'>3</button>
+                      <button className='bg-[#3FAFEE] px-2 py-1 rounded-full text-white font-semibold text-xs'>4</button>
                       <div>Passport</div>
                     </div>
 
@@ -36,7 +36,7 @@ const AgainStep4 = () => {
                       <div className='border-2 rounded-full border-[#3FAFEE]'></div>
                       <div className='border-2 rounded-full border-[#3FAFEE]'></div>
                       <div className='border-2 rounded-full border-[#3FAFEE]'></div>
-                      <div className='border-2 rounded-full border-[#DBF0FC]'></div>
+                      <div className='border-2 rounded-full border-[#3FAFEE]'></div>
                       <div className='border-2 rounded-full border-[#DBF0FC]'></div>
                     </div>
 

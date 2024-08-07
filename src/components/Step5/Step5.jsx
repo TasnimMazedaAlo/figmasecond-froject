@@ -22,7 +22,7 @@ const Step5 = () => {
                 <div className='md:hidden block'>
                   <div className='bg-white rounded-2xl  my-5'>
                     <div className='flex items-center gap-1 pt-3 px-3'>
-                      <button className='bg-[#3FAFEE] px-2 py-1 rounded-full text-white font-semibold text-xs'>3</button>
+                      <button className='bg-[#3FAFEE] px-2 py-1 rounded-full text-white font-semibold text-xs'>5</button>
                       <div>Summary</div>
                     </div>
 

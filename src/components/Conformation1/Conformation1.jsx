@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaCheck } from "react-icons/fa";
-import img1 from './img/img.svg'
-import img2 from './img/img2.svg'
+import img1 from './img/img.webp'
+import img2 from './img/img2.webp'
 import { Link } from 'react-router-dom';
 import { FaArrowRight } from "react-icons/fa";
 
@@ -51,7 +51,7 @@ const Conformation1 = () => {
                 <div><img className='lg:w-[400px]' src={img2} alt="" /></div>
 
                 <div className='bg-white rounded-xl px-7 py-7 lg:w-[400px]  border-4 border-lime-500'>
-                  <div className='relative'><button className=' absolute md:top-[-50px] top-[-40px] md:right-[100px] right-[40px] text-white md:text-base text-xs font-bold px-3 py-1 rounded-full bg-lime-500'>Most Popular</button></div>
+                  <div className='relative'><button className=' absolute md:top-[-50px] top-[-40px] md:right-[100px] right-[65px] text-white md:text-base text-xs font-bold px-3 py-1 rounded-full bg-lime-500'>Most Popular</button></div>
                   <div className='text-[#0052A5] font-bold text-start'>Auto-Renew</div>
                   <div className=' flex justify-start items-center gap-2 my-3'><span className='text-4xl font-bold '>$60</span> <span className='text-slate-600'>/month</span></div>
 
