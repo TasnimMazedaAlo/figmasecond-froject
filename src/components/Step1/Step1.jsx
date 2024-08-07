@@ -100,7 +100,7 @@ const Step1 = () => {
                                 </div>
 
                                 <div className="md:grid grid-cols-3 gap-5 md:py-10">
-                                    <div className="flex border-2 items-center rounded-xl md:my-0 my-3 ">
+                                    <div className="flex border-2 items-center rounded-xl md:my-0 my-3 mx-5">
                                         <div className="pl-5 pr-2"><FaCalendarAlt className='text-[#0052A5]' /></div>
                                         <input type="text" placeholder="Date of birth" className="md:w-full   py-3 rounded-xl"/>
                                     </div>
