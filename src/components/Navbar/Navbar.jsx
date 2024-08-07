@@ -62,11 +62,13 @@ const Navbar = () => {
                  </div>
                  
 
-                 <div className='mt-24 '>
-                  <Link > <div className='text-[#0052A5]  py-2 rounded-full border-2 border-[#0052A5]'> Log In </div> </Link>
-                  <Link to={"/Step1"}> <div className='flex gap-1 items-center px-14 py-3 rounded-full bg-[#0052A5] text-slate-100 my-5'><span>  Apply For IDP </span>  <FaArrowRight className='text-xs' /></div> </Link>
+                <div className='flex justify-center'>
+                <div className='mt-10 pb-5'>
+                  <Link > <button className='text-[#0052A5]  px-5 py-2 rounded-full border-2 border-[#0052A5]'> Log In </button> </Link>
+                  <Link to={"/Step1"}> <button className='flex gap-1 items-center px-5 py-3 rounded-full bg-[#0052A5] text-slate-100 mt-3'><span>  Apply For IDP </span>  <FaArrowRight className='text-xs' /></button> </Link>
                  
                  </div>
+                </div>
                  
                 </div>
                 
