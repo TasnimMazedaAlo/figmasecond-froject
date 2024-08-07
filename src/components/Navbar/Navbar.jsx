@@ -50,7 +50,7 @@ const Navbar = () => {
               {
                clickMenu ? <>
                <div className='relative  text-gray-700 font-semibold '>
-                <div className='absolute top-24 left-[-180px] bg-white rounded-md px-3'>
+                <div className='absolute top-24 left-[-190px] bg-white rounded-md px-3'>
                  
                  <div>
                   <Link to={"/WhatIsAnIdp"}> <div className='w-60 pt-5'> What is an IDP? </div> </Link>
@@ -62,7 +62,7 @@ const Navbar = () => {
                  </div>
                  
 
-                 <div className='my-24'>
+                 <div className='mt-24 '>
                   <Link > <div className='text-[#0052A5]  py-2 rounded-full border-2 border-[#0052A5]'> Log In </div> </Link>
                   <Link to={"/Step1"}> <div className='flex gap-1 items-center px-14 py-3 rounded-full bg-[#0052A5] text-slate-100 my-5'><span>  Apply For IDP </span>  <FaArrowRight className='text-xs' /></div> </Link>
                  
