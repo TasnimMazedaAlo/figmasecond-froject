@@ -28,6 +28,10 @@ import Conformation1 from './components/Conformation1/Conformation1.jsx'
 import Conformation2 from './components/Conformation2/Conformation2.jsx'
 import Search from './components/Search/Search.jsx'
 import Navbar from './components/Navbar/Navbar.jsx';
+import WhatIsAnIDPPage from './Pages/WhatIsAnIDPPage.jsx';
+import CountryRequirmentsPage from './Pages/CountryRequirmentsPage.jsx';
+import PricingPage from './Pages/PricingPage.jsx';
+import FAQSpage from './Pages/FAQSpage.jsx';
 
 
 
@@ -105,7 +109,24 @@ const router = createBrowserRouter([
   {
     path: "/Search",
     element: <Search></Search>
+  },
+  {
+    path: "/WhatIsAnIDPPage",
+    element: <WhatIsAnIDPPage></WhatIsAnIDPPage>
+  },
+  {
+    path: "/CountryRequirmentsPage",
+    element: <CountryRequirmentsPage></CountryRequirmentsPage>
+  },
+  {
+    path: "/PricingPage",
+    element: <PricingPage></PricingPage>
+  },
+  {
+    path: "/FAQSpage",
+    element: <FAQSpage></FAQSpage>
   }
+ 
  
 ]);
 

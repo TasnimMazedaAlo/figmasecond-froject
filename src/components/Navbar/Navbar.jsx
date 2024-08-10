@@ -24,10 +24,10 @@ const Navbar = () => {
                 <div><img src={logo} alt="" /></div>
 
                 <div className='text-gray-700 font-semibold'>
-                    <Link to={"/WhatIsAnIdp"}> What is an IDP? </Link>
-                    <Link className='px-5' to={"/CountryRequirements"}> Country Requirements </Link>
-                    <Link to={"/Pricing"}> Pricing </Link>
-                    <Link className='px-5' to={"/Faqs"}> FAQS </Link>
+                    <Link to={"/WhatIsAnIDPPage"}> What is an IDP? </Link>
+                    <Link className='px-5' to={"/CountryRequirmentsPage"}> Country Requirements </Link>
+                    <Link to={"/PricingPage"}> Pricing </Link>
+                    <Link className='px-5' to={"/FAQSpage"}> FAQS </Link>
                     <Link to={"/Contact"}> Contact </Link>
                    
                    
@@ -53,10 +53,10 @@ const Navbar = () => {
                 <div className='absolute top-24 left-[-190px] bg-white rounded-md px-3'>
                  
                  <div>
-                  <Link to={"/WhatIsAnIdp"}> <div className='w-60 pt-5'> What is an IDP? </div> </Link>
-                  <Link to={"/CountryRequirements"}>  <div  className='py-10'> Country Requirements </div></Link>
-                  <Link to={"/Pricing"}> <div> Pricing </div> </Link>
-                  <Link to={"/Faqs"}> <div className='py-10'> FAQS </div></Link>
+                  <Link to={"/WhatIsAnIDPPage"}> <div className='w-60 pt-5'> What is an IDP? </div> </Link>
+                  <Link to={"/CountryRequirmentsPage"}>  <div  className='py-10'> Country Requirements </div></Link>
+                  <Link to={"/PricingPage"}> <div> Pricing </div> </Link>
+                  <Link to={"/FAQSpage"}> <div className='py-10'> FAQS </div></Link>
                   <Link to={"/Contact"}> <div> Contact </div> </Link>
                  
                  </div>
