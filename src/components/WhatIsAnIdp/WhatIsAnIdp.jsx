@@ -47,7 +47,7 @@ const WhatIsAnIdp = () => {
         </div>
 
           <div className='bg-[#E2F0FF] md:w-[500px] rounded-md md:mx-10 md:text-base'>
-            <div className=' md:pl-7  md:pr-24 md:py-7 py-5 px-5 text-start'>
+            <div className=' md:pl-7  md:pr-24 md:py-7 py-5 px-5 mx-2 text-start'>
               <h1 className='md:text-3xl text-2xl font-semibold md:py-7'>What is an IDP?</h1>
               <p className='text-slate-900 md:py-0 py-5'><span className='text-[#0052A5] font-semibold'>An International Driver’s Permit (IDP), </span>is a travel document that is required in some countries to drive a vehicle while you are abroad. It does not replace your current driver’s license but works in conjunction with it and that states you can legally drive in a country.</p>
 

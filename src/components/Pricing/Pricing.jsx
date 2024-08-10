@@ -10,7 +10,7 @@ const Pricing = () => {
     <div className="container mx-auto">
       <section>
         <div>
-          <div className='mx-10 md:mt-24'>
+          <div className='mx-10 md:mt-14 mt-7'>
             <div className='text-[#0052A5] text-sm font-semibold'>Pricing</div>
             <div className='md:text-4xl text-2xl font-semibold'>Simple and Transparent</div>
             <div className=' text-slate-800 '>100% money-back guarantee</div>
