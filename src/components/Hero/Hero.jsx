@@ -6,21 +6,23 @@ import document from './img/document.svg'
 import { FaArrowRight } from "react-icons/fa6";
 import hero2 from './img/hero2.webp'
 
+
 const Hero = () => {
   return (
     <div className="container mx-auto">
+   
        <section>
         <div>
             <div className='md:block hidden'>
             <div className='flex justify-center items-center gap-3 bg-[#E2F0FF] py-2 rounded-md my-10 mx-10'>
-                <div> <GoAlertFill  className='text-[#0052A5]' /> </div>
+                <div className='hidden md:block'> <GoAlertFill  className='text-[#0052A5]' /> </div>
                 <div className='text-gray-700'> Don't fall victim to SCAM websites! </div>
                 <div className='text-[#0052A5] underline font-bold text-sm'> <Link> Read Our Story </Link> </div>
             </div>
             </div>
 
             <div className='md:hidden block'>
-              <div className='my-5 bg-[#E2F0FF] py-2 rounded-md'>
+              <div className='my-5 bg-[#E2F0FF] py-2 rounded-md '>
                 <div className='flex gap-2 items-center justify-center'>
                   <div> <GoAlertFill  className='text-[#0052A5]' /> </div>
                   <div className='text-gray-700'> Don't fall victim to SCAM websites! </div>

@@ -14,9 +14,9 @@ const Navbar = () => {
   let [clickMenu, setClickMenu] = useState(false);
 
   return (
-    <div className="container mx-auto">
+    <div >
        <section>
-        <div>
+        <div  className="container mx-auto">
            
 
            <div className='lg:block hidden'>

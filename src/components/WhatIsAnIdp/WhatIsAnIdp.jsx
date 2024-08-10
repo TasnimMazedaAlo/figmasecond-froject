@@ -5,9 +5,10 @@ import document from './img/document.svg'
 
 
 
+
 const WhatIsAnIdp = () => {
   return (
-    <div className="container mx-auto">
+    <div >
 
     
       <section>
